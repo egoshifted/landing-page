@@ -109,6 +109,7 @@ ul {
     flex-direction: column;
     max-width: 150px;
     gap: 5px;
+    
 }
 
 .card-box {
@@ -117,13 +118,44 @@ ul {
     border-radius: 8px;
     width: 150px;
     height: 150px;
-    
+}
+
+.card-text {
+    text-align: center;
+    color: #4B5563;
 }
 
 .quote {
     display: flex;
+    flex-direction: column;
     background-color: #E5E7EB;
     height: 300px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.quote-wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    max-width: 800px;
+
+}
+
+.quote-author {
+    margin-left: auto;
+    color: #1F2937;
 }
 
 h1 {
