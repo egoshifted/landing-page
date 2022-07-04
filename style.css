@@ -19,6 +19,7 @@ body {
 #header-logo {
     font-size: 24px;
     font-weight: bolder;
+    
 }
 
 ul {
@@ -37,5 +38,63 @@ ul {
 }
 
 .top {
+    display: flex;
+    background-color: #1f2937;
+    height: 450px;
+    padding-left: 200px;
+    padding-right: 200px;
+    align-items: center;
+}
+
+.top-left {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+     
+}
+
+.top-left button {
+    background-color: #3B82F6;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px 30px;
+    border-radius: 5px;
+    border: none;
     
 }
+
+.top-right {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+       
+}
+
+.placeholder {
+    display: flex;
+    background-color: gainsboro;
+    color: white;
+    width: 500px;
+    height: 250px; 
+    margin-left: 25px;
+    background-color: #6D747D;
+    justify-content: center;
+    align-items: center;
+    
+       
+}
+
+h1 {
+   font-size: 48px;
+   font-weight: 900;
+   margin: 0;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: lighter;
+}
+
