@@ -179,12 +179,22 @@ ul {
     gap: 10rem;
     border-radius: 10px;
     color: white;
-       
+    flex-shrink: 0;
+          
 }
+
+.bluebox-text {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
 
 .actioncall {
     font-size: 30px;
     font-weight: bolder;
+    
 }
 
 .bluebox button {
@@ -195,6 +205,8 @@ ul {
     padding: 8px 30px;
     border-radius: 5px;
     border: 2px solid white;
+    width: 150px;
+    
 }
 
 .footer {
