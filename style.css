@@ -1,0 +1,41 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+}
+
+.header {
+    display: flex;
+    background-color: #1f2937;
+    color: #f9faf8;
+    height: 75px;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    
+    
+}
+
+#header-logo {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    
+}
+
+.header li {
+    display: flex;
+    padding: 1rem;
+    font-size: 18px;
+}
+
+.top {
+    
+}
