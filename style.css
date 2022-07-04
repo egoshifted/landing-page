@@ -147,6 +147,7 @@ ul {
 
 .quote-text {
     font-size: 36px;
+    font-weight: 100;
     font-style: italic;
     color: #1F2937;
     max-width: 800px;
@@ -156,6 +157,56 @@ ul {
 .quote-author {
     margin-left: auto;
     color: #1F2937;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.action {
+    display: flex;
+    height: 300px;
+    padding-left: 200px;
+    padding-right: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.bluebox {
+    display: flex;
+    background-color: #3B82F6;
+    height: 100px;
+    padding: 25px 100px ;
+    align-items: center;
+    gap: 10rem;
+    border-radius: 10px;
+    color: white;
+       
+}
+
+.actioncall {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.bluebox button {
+    background-color: #3B82F6;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px 30px;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+
+.footer {
+    display: flex;
+    margin-top: auto;
+    height: 100px;
+    background-color: #1f2937;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+
 }
 
 h1 {
