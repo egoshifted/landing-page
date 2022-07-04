@@ -87,6 +87,45 @@ ul {
        
 }
 
+.info {
+    display: flex;
+    flex-direction: column;
+    padding-left: 200px;
+    padding-right: 200px;
+    align-items: center;
+    padding-bottom: 5rem;
+     
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem; 
+         
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+    gap: 5px;
+}
+
+.card-box {
+    display: flex;
+    border: 3px solid #3B82F6;
+    border-radius: 8px;
+    width: 150px;
+    height: 150px;
+    
+}
+
+.quote {
+    display: flex;
+    background-color: #E5E7EB;
+    height: 300px;
+}
+
 h1 {
    font-size: 48px;
    font-weight: 900;
@@ -98,3 +137,9 @@ h2 {
     font-weight: lighter;
 }
 
+
+h3 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
